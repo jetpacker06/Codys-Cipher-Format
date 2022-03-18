@@ -22,7 +22,7 @@ public class Main {
                 case "3":
                     shouldContinue = false;
             }
-            Conv.p("\n\n\n\n\n1. Decipher a CCF\n2.Cipher any file into a CCF\n3. Quit");
+            Conv.p("\n\n\n\n\n1. Decipher a CCF\n2. Cipher any file into a CCF\n3. Quit");
         } while (shouldContinue);
     }
 }

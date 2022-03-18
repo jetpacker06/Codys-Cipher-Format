@@ -146,8 +146,6 @@ public class Decipher {
             }
             //determine output file name
             String[] fileNameNoCCF = fileNameToDecipher.split(".ccf");
-            Conv.p(fileNameNoCCF[0]);
-            Conv.p(decipheredText);
 
             FileWriter myWriter = new FileWriter(fileNameNoCCF[0]);
             myWriter.write(decipheredText);
